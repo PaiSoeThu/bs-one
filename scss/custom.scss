@@ -1,0 +1,28 @@
+
+$custom-one:  #002632;
+$custom-two: #FF7A01;
+$primary:       $custom-one;
+$secondary: $custom-two;
+$btn-border-radius: 0px;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../public/font/Roboto-Medium.ttf') format('ttf'),
+         url('../public/font/Roboto-Bold.ttf') format('ttf');
+    /* Add additional font formats if necessary */
+    /* e.g., url('path-to-your-font/customfont.ttf') format('truetype') */
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
